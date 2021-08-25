@@ -1,0 +1,36 @@
+.home-container{
+    background-color: #161616;
+    position: relative;
+    width: 80%;
+    left: 20%;
+    min-height: 100vh;
+}
+.home-content{
+    width: 95%;
+    margin: 3rem auto;
+}
+.artist-musics{
+    display: flex;
+    margin: 2.4rem 0;
+}
+.release_title{
+    display: flex;
+    margin-top: 7rem ;
+}
+.release_title h2{
+    color:#fbfbfb;
+    padding-bottom: 1rem;
+}
+.release-container{
+    width: 50%;
+}
+.playlist-container{
+    margin-left: 3rem;
+    width: 30%;
+}
+.playlist-element{
+    display: grid;
+    grid-template-columns: repeat(2 , 11rem);
+    gap: 1.5rem;
+    justify-content: space-between;
+}

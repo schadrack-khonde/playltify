@@ -1,0 +1,24 @@
+::root{
+    --header-bg-color:#222;
+    --home-bg-color:#161616;
+    --blue-bg:#2a71fe;
+    --light-gray:#909090;
+    --dark-gray:#6666;
+    --title-color:#fbfbfb;
+    --para-color: #585858;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+
+body{
+    font-family: 'Comic Neue',
+    cursive;
+}
